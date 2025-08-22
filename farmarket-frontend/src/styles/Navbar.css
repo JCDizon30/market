@@ -1,0 +1,27 @@
+/* Green farmy navbar */
+.farm-navbar {
+  background-color: #2d6a4f; /* deep farm green */
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.brand-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fefae0 !important; /* warm cream for farm vibe */
+}
+
+.nav-link-custom {
+  color: #fefae0 !important; /* cream text for contrast */
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link-custom:hover {
+  color: #ffd166 !important; /* warm yellow highlight */
+}
+
+/* mobile menu background */
+.navbar-collapse {
+  background-color: #2d6a4f;
+  padding: 0.5rem;
+}
